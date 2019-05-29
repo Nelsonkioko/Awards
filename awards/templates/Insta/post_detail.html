@@ -1,0 +1,72 @@
+{% extends "awards/base.html" %}
+{% block content %}
+    <div class="row">
+        <div class="col-md-6">
+         <br><br>
+            <div class="card" style="height: 100%;">
+
+             <div class="card-body">
+
+                 <article class="card-title" style="background: inherit; height:100%";>
+        <img class="rounded-circle article-img" style="height: 70px; width: 70px;" src="{{ object.author.profile.image.url }}">
+        <div class="media-body">
+            <div class="article-metadata">
+                <a class="mr-2" style="color: hotpink;" href="{% url 'user-posts' object.author.username %}">{{ object.author }}</a>
+                <small class="" style="color: #ffff">{{ object.date_posted|date:"F d, Y" }}</small>
+                {% if object.author == user %}
+                    <div>
+                        <a class="btn btn-secondary btn-sm mt-1 mb-1"
+                           href="{% url 'post-update' object.id %}">Update</a>
+                        <a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'post-delete' object.id %}">Delete</a>
+                    </div>
+                {% endif %}
+            </div>
+            <h2 class="article-title">{{ object.title }}</h2>
+
+             </div>
+
+                <img class="card-img-bottom" src="{{ object.content.url }}" alt="" width="100%">
+                 </article>
+        </div>
+
+        </div>
+            </div>
+
+
+     <div class="col-md-6">
+      <br><br>
+       <hr>
+
+{% for comment in post.comments.all %}
+    <div class="card" style="background: inherit;">
+
+        <div class="card-title">
+            <img class="rounded-circle article-img" style="height: 70px; width: 70px;" src="{{user.profile.image.url }}">
+            <a class="" style="color: #ffff;" href="{% url 'user-posts' user.username %}">{{ comment.user|capfirst }}</a>
+            <small class="" style="color: #ffff">{{ post.date_posted|date:"F d, Y" }}</small>
+        </div>
+        <p style="color: #ffff" >{{ comment.text|linebreaks }}</p>
+    </div>
+{% empty %}
+    <p style="color: #ffff">No comments here yet :(</p>
+{% endfor %}
+ <a class="btn btn-success" href="{% url 'add_comment_to_post' pk=post.pk %}">Add comment</a>
+    </div>
+
+        </div>
+
+
+
+    <style>
+    a  {
+  color: #ffff;
+}
+    p  {
+  color: #ffff;
+}
+    .card  {
+        background: inherit;
+    }
+    </style>
+{% endblock content %}
+

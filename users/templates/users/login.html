@@ -1,0 +1,39 @@
+{% extends "awards/base2.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="content-section" style=" border-right:1px; border-left:1px;float: right; width: 50%;background: inherit;    background: inherit;
+
+    filter: blendTrans(2px);">
+
+             <form method="POST">
+            {% csrf_token %}
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">Log In</legend>
+                {{ form|crispy }}
+            </fieldset>
+            <div class="form-group">
+                <button class="btn btn-primary" type="submit">Login</button>
+                <small class="text-muted ml-2">
+                    <a href="{% url 'password_reset' %}">Forgot Password?</a>
+                </small>
+            </div>
+        </form>
+        <div class="border-top pt-3">
+            <small class="small">
+                Need An Account? <a class="ml-2" href="{% url 'register' %}">Sign Up Now</a>
+            </small>
+        </div>
+
+
+
+    </div>
+    <style>
+    a  {
+        color: white;
+    }
+    .small {
+        color: hotpink;
+    }
+
+    </style>
+{% endblock content %}
