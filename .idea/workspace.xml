@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41f09e42-938d-4b67-bd92-89362cdc4f44" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/awards/templates/awards/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/awards/templates/awards/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/awards/templates/awards/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/awards/templates/awards/home.html" afterDir="false" />
     </list>
@@ -42,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/awards/templates/awards/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+            <state relative-caret-position="180">
+              <caret line="108" selection-start-line="108" selection-end-line="108" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -84,18 +85,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/awards/templates/awards/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="26" column="116" selection-start-line="26" selection-start-column="116" selection-end-line="26" selection-end-column="116" />
+            <state relative-caret-position="190">
+              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
               <folding>
                 <element signature="e#80#98#0#HTML" expanded="true" />
                 <element signature="e#188#216#0#HTML" expanded="true" />
                 <element signature="e#435#456#0#HTML" expanded="true" />
                 <element signature="e#696#716#0#HTML" expanded="true" />
                 <element signature="e#873#894#0#HTML" expanded="true" />
-                <element signature="e#1465#1559#0#HTML" expanded="true" />
+                <element signature="e#1477#1565#0#HTML" expanded="true" />
                 <element signature="e#1425#1473#0#HTML" expanded="true" />
                 <element signature="e#1592#1627#0#HTML" expanded="true" />
               </folding>
@@ -190,8 +191,8 @@
         <option value="$PROJECT_DIR$/awards/templates/awards/post_form.html" />
         <option value="$PROJECT_DIR$/users/templates/users/profile.html" />
         <option value="$PROJECT_DIR$/awards/templates/awards/post_detail.html" />
-        <option value="$PROJECT_DIR$/awards/templates/awards/home.html" />
         <option value="$PROJECT_DIR$/awards/templates/awards/base.html" />
+        <option value="$PROJECT_DIR$/awards/templates/awards/home.html" />
       </list>
     </option>
   </component>
@@ -344,18 +345,18 @@
       <workItem from="1558942464600" duration="941000" />
       <workItem from="1559113577143" duration="1786000" />
       <workItem from="1559115643645" duration="9243000" />
-      <workItem from="1559190933735" duration="21970000" />
+      <workItem from="1559190933735" duration="24259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33940000" />
+    <option name="totallyTimeSpent" value="36229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="25" width="1307" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15860428" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15860428" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -565,27 +566,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/awards/templates/awards/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="26" column="116" selection-start-line="26" selection-start-column="116" selection-end-line="26" selection-end-column="116" />
-          <folding>
-            <element signature="e#80#98#0#HTML" expanded="true" />
-            <element signature="e#188#216#0#HTML" expanded="true" />
-            <element signature="e#435#456#0#HTML" expanded="true" />
-            <element signature="e#696#716#0#HTML" expanded="true" />
-            <element signature="e#873#894#0#HTML" expanded="true" />
-            <element signature="e#1465#1559#0#HTML" expanded="true" />
-            <element signature="e#1425#1473#0#HTML" expanded="true" />
-            <element signature="e#1592#1627#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/awards/templates/awards/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state relative-caret-position="180">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -595,6 +579,23 @@
             <element signature="n#style#0;n#a#3;n#div#1;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#4;n#div#1;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#5;n#div#1;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/awards/templates/awards/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+          <folding>
+            <element signature="e#80#98#0#HTML" expanded="true" />
+            <element signature="e#188#216#0#HTML" expanded="true" />
+            <element signature="e#435#456#0#HTML" expanded="true" />
+            <element signature="e#696#716#0#HTML" expanded="true" />
+            <element signature="e#873#894#0#HTML" expanded="true" />
+            <element signature="e#1477#1565#0#HTML" expanded="true" />
+            <element signature="e#1425#1473#0#HTML" expanded="true" />
+            <element signature="e#1592#1627#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
