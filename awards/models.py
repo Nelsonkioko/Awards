@@ -5,13 +5,14 @@ from django.urls import reverse
 
 
 class Post(models.Model):
-    location = models.CharField(max_length=100)
+    project = models.CharField(max_length=100)
     content = models.ImageField(upload_to='timeline_pics')
+    image_description = models.TextField()
     date_posted = models.DateTimeField(default=timezone.now)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
 
     def __str__(self):
-        return self.location
+        return self.project
 
     def get_absolute_url(self):
         return reverse('awards-home')
