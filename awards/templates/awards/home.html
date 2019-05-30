@@ -4,7 +4,7 @@
          <div class="row">
         {% for post in posts %}
 
-            <div class="col-md-3" style="float: right;">
+            <div class="col-md-3">
                 <div class="card mb-3" style="background: inherit;">
                     <div class="card-title">
 
@@ -46,6 +46,7 @@
                     <a class="btn btn-default" href="{% url 'add_comment_to_post' pk=post.pk %}">Add comment</a>
                 </div>
               </div>
+                 {% endfor %}
             </div>
 
     </div>
@@ -53,7 +54,7 @@
 
 
 
-        {% endfor %}
+
 
 
 
