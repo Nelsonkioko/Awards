@@ -53,7 +53,7 @@ Django 2.2.1
 | user clicks on an image of choice | A modol pops up and the image details together with the review made to that project|
 | user clicks on make review | User is redirected to a page where he/she can make a review|
 | User clicks on the profile icon | Profile details of the current user is loaded |
-| User clicks on edit profile | Profile forms are displayed |
+
 | user searches for a project category  | user is re-directed to the searched term with relevant projects displayed |
 
 
@@ -61,7 +61,7 @@ Django 2.2.1
 
 ## Live link
 
-Use this link to see the web-page  https://instagram77777001.herokuapp.com/
+Use this link to see the web-page  
 
 
 

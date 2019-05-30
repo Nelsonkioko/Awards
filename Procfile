@@ -1,1 +1,1 @@
-web: gunicorn Instagram_01.wsgi 
+web: gunicorn Awards_01.wsgi 
