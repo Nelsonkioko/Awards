@@ -11,8 +11,8 @@
         <img class="rounded-circle article-img" style="height: 70px; width: 70px;" src="{{ object.author.profile.image.url }}">
         <div class="media-body">
             <div class="article-metadata">
-                <a class="mr-2" style="color: hotpink;" href="{% url 'user-posts' object.author.username %}">{{ object.author }}</a>
-                <small class="" style="color: #ffff">{{ object.date_posted|date:"F d, Y" }}</small>
+                <a class="mr-2" style="color: black;" href="{% url 'user-posts' object.author.username %}"> Posted by: {{ object.author }}</a>
+                <small class="" style="color: black;"> on {{ object.date_posted|date:"F d, Y" }}</small>
                 {% if object.author == user %}
                     <div>
                         <a class="btn btn-secondary btn-sm mt-1 mb-1"
@@ -42,13 +42,13 @@
 
         <div class="card-title">
             <img class="rounded-circle article-img" style="height: 70px; width: 70px;" src="{{user.profile.image.url }}">
-            <a class="" style="color: #ffff;" href="{% url 'user-posts' user.username %}">{{ comment.user|capfirst }}</a>
-            <small class="" style="color: #ffff">{{ post.date_posted|date:"F d, Y" }}</small>
+            <a class="" style="color: black;" href="{% url 'user-posts' user.username %}">{{ comment.user|capfirst }}</a>
+            <small class="" style="color: black">{{ post.date_posted|date:"F d, Y" }}</small>
         </div>
-        <p style="color: #ffff" >{{ comment.text|linebreaks }}</p>
+        <p style="color: black" >{{ comment.text|linebreaks }}</p>
     </div>
 {% empty %}
-    <p style="color: #ffff">No comments here yet :(</p>
+    <p style="color: black">No comments here yet :(</p>
 {% endfor %}
  <a class="btn btn-success" href="{% url 'add_comment_to_post' pk=post.pk %}">Add comment</a>
     </div>
@@ -59,7 +59,7 @@
 
     <style>
     a  {
-  color: #ffff;
+  color: black;
 }
     p  {
   color: #ffff;

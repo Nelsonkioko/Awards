@@ -8,24 +8,26 @@
                         <br> <br>
 {#                        <img class="rounded-circle article-img" style="height: 70px; width: 70px;"#}
 {#                             src="{{ post.author.profile.image.url }}">#}
-                        <a class="" style="color: #ffff;"
+                        <a class="" style="color: black;"
                            href="{% url 'user-posts' post.author.username %}">Posted by {{ post.author }}</a>
-                        <small class="" style="color: #ffff">{{ post.date_posted|date:"F d, Y" }}</small>
+                        <small class="" style="color: black"> on {{ post.date_posted|date:"F d, Y" }}</small>
                     </div>
                     <div class="card-body">
-                        <h4><a class="" style="color: #ffff"
+                        <h4><a class="" style="color: black;"
                                href="{% url 'post-detail' post.id %}">{{ post.project }}</a></h4>
 
                     </div>
 
 
-                    <a class="" href="{% url 'post-detail' post.id %}"><img style=" display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%; height:auto" class="" src="{{ post.content.url }}"
-                                                                            alt=""></a>
-                    <a class="" href="{{ post.url }}">
-                        <button class="btn-success">View</button>
+{#                    <a class="" href="{% url 'post-detail' post.id %}"><img style=" display: block;#}
+{#  margin-left: auto;#}
+{#  margin-right: auto;#}
+{#  width: 100%; height:auto" class="" src="{{ post.content.url }}" alt=""></a>#}
+{#                    <a class="btn btn-success" href="{{ post.url }}">View</a>#}
+                     <a data-fancybox href="{{ post.content.url }}"
+                        data-caption="<p>{{ image.description }}</p>"
+                    <img src=" { image.image.url }}" alt="massive image" style='width:100%;height:70%;'>
+
                     </a>
 
 
@@ -34,10 +36,8 @@
                             {{ post.published_date }}
                         </div>
                         <h1><a href="{% url 'post-detail' pk=post.pk %}">{{ post.title }}</a></h1>
-                        <p style="color: #ffff;margin: 20px 0px 20px 20px;">{{ post.text|linebreaksbr }}</p>
-                        <a href="{% url 'post-detail' pk=post.pk %}"><i class="fa fa-wechat"
-                                                                        style="font-size:48px;color:white;"></i> {{ post.comments.count }}
-                            <i class='fas fa-heart' style='font-size:48px;color:white'></i></a>
+                        <p style="color: black;margin: 20px 0px 20px 20px;">{{ post.text|linebreaksbr }}</p>
+                        <a href="{% url 'post-detail' pk=post.pk %}"><i class="fa fa-wechat" style="font-size:48px;color:black;"></i> {{ post.comments.count }}</a>
                     </div>
                     <hr>
                     <a class="btn btn-default" href="{% url 'add_comment_to_post' pk=post.pk %}">Add comment</a>
@@ -76,7 +76,7 @@
 
     <style>
         a {
-            color: #ffff;
+            color: black;
         }
 
     </style>
