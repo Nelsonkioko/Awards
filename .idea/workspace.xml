@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41f09e42-938d-4b67-bd92-89362cdc4f44" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/awards/static/Insta/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/awards/static/awards/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/awards/templates/awards/base2.html" beforeDir="false" afterPath="$PROJECT_DIR$/awards/templates/awards/base2.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,11 +68,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/awards/templates/awards/base2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+            <state relative-caret-position="159">
+              <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
               <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/awards/static/awards/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -97,6 +108,7 @@
         <option value="$PROJECT_DIR$/Awards_01/settings.py" />
         <option value="$PROJECT_DIR$/Awards/settings.py" />
         <option value="$PROJECT_DIR$/awards/urls.py" />
+        <option value="$PROJECT_DIR$/awards/static/awards/main.css" />
         <option value="$PROJECT_DIR$/awards/templates/awards/base2.html" />
       </list>
     </option>
@@ -123,6 +135,19 @@
             <path>
               <item name="Awards" type="b2602c69:ProjectViewProjectNode" />
               <item name="Awards" type="462c0819:PsiDirectoryNode" />
+              <item name="awards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Awards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Awards" type="462c0819:PsiDirectoryNode" />
+              <item name="awards" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Awards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Awards" type="462c0819:PsiDirectoryNode" />
+              <item name="awards" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="awards" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -217,18 +242,18 @@
       <updated>1558942461938</updated>
       <workItem from="1558942464600" duration="941000" />
       <workItem from="1559113577143" duration="1786000" />
-      <workItem from="1559115643645" duration="7385000" />
+      <workItem from="1559115643645" duration="8161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10112000" />
+    <option name="totallyTimeSpent" value="10888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="25" width="1307" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16019033" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16019033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -242,7 +267,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3306189" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3306189" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -369,11 +394,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/awards/static/awards/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/awards/templates/awards/base2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        <state relative-caret-position="159">
+          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
           <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
