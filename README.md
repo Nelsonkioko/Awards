@@ -1,5 +1,5 @@
-# Instagram - 001
-This is a replica of Instagram that allows users to post photos,like and comment.
+# Awards01
+This is a site to post projects and people get the chance to comment and rate the projects.
 
 ## Author name
 
@@ -50,9 +50,9 @@ Django 2.2.1
 | Behavior        | Result |
 | ------------- |:----:|
 | user loads the page | all available projects that have been posted are displayed |
-| user clicks on an image of choice | A modol pops up and the image details together with the review made to that project|
-| user clicks on make review | User is redirected to a page where he/she can make a review|
-| User clicks on the profile icon | Profile details of the current user is loaded |
+| user clicks on an image of choice | A modol pops up and the image details together with a button to view the project.|
+| user clicks on make review icon | User is redirected to a page where he/she can make a review|
+| User clicks on the profile | Profile details of the current user is loaded |
 
 | user searches for a project category  | user is re-directed to the searched term with relevant projects displayed |
 
