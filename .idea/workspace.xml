@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="41f09e42-938d-4b67-bd92-89362cdc4f44" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/awards/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/awards/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awards/templates/awards/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/awards/templates/awards/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/awards/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/awards/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/awards/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -101,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/awards/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="51" column="39" lean-forward="true" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+            <state relative-caret-position="584">
+              <caret line="56" column="43" lean-forward="true" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
@@ -327,12 +326,12 @@
       <workItem from="1558942464600" duration="941000" />
       <workItem from="1559113577143" duration="1786000" />
       <workItem from="1559115643645" duration="9243000" />
-      <workItem from="1559190933735" duration="9733000" />
+      <workItem from="1559190933735" duration="9973000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21703000" />
+    <option name="totallyTimeSpent" value="21943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="25" width="1307" height="743" extended-state="6" />
@@ -512,8 +511,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/awards/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="51" column="39" lean-forward="true" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+        <state relative-caret-position="584">
+          <caret line="56" column="43" lean-forward="true" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
@@ -523,7 +522,7 @@
     <entry file="file://$PROJECT_DIR$/awards/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
