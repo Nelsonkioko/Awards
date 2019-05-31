@@ -42,10 +42,13 @@
                         <p style="color: black;margin: 20px 0px 20px 20px;">{{ post.text|linebreaksbr }}</p>
                         <a href="{% url 'post-detail' pk=post.pk %}"><i class="fa fa-wechat" style="font-size:48px;color:black;"></i> {{ post.comments.count }}</a>
                     </div>
+
                     <hr>
                     <a class="btn btn-default" href="{% url 'add_comment_to_post' pk=post.pk %}">Add comment</a>
                 </div>
               </div>
+
+
                  {% endfor %}
             </div>
 
@@ -90,5 +93,21 @@
         }
 
     </style>
+
+
+<script>
+
+$(document).ready(function() {
+
+$('.loader').on('click', function() {
+
+loader.draw(100);
+
+});
+
+});
+
+</script>
+
 
 {% endblock content %}
