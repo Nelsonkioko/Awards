@@ -1,1 +1,1 @@
-web: gunicorn Awards_01.wsgi 
+web: gunicorn Awards.wsgi 
