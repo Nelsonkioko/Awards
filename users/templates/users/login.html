@@ -1,7 +1,7 @@
 {% extends "awards/base2.html" %}
 {% load crispy_forms_tags %}
 {% block content %}
-    <div class="content-section" style=" border-right:1px; border-left:1px;float: right; width: 50%;background: inherit;    background: inherit;
+    <div class="content-section" style=" border-right:1px; border-left:1px; width: 50%;background:inherit;margin-left: 25%;
 
     filter: blendTrans(2px);">
 
@@ -12,7 +12,7 @@
                 {{ form|crispy }}
             </fieldset>
             <div class="form-group">
-                <button class="btn btn-primary" type="submit">Login</button>
+                <button class="btn btn-outline-primary" type="submit">Login</button>
                 <small class="text-muted ml-2">
                     <a href="{% url 'password_reset' %}">Forgot Password?</a>
                 </small>
